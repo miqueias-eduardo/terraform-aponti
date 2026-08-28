@@ -45,30 +45,34 @@ Define as informações que podem ser exibidas pelo Terraform após a execução
 
 ## Fluxo utilizado
 
-```text
+texto​
 Configuração dos arquivos
           ↓
    terraform init
           ↓
-  terraform validate
+  validar terraform
           ↓
-   terraform plan
+   plano de terraformação
           ↓
-  terraform apply
+  aplicar terraform
 ```
 
-### `terraform init`
+### ` terraform init ` 
 
-Prepara o projeto e instala os providers necessários.
+Preparar o projeto e instalar os fornecedores necessários.
 
-### `terraform validate`
+### ` terraform validate` 
 
-Verifica se a configuração dos arquivos está válida.
+Verifique se a configuração dos arquivos é válida.
 
-### `terraform plan`
+### ` plano terraform ` 
 
 Mostra as alterações que serão realizadas na infraestrutura.
 
-### `terraform apply`
+### ` terraform apply ` 
 
-Aplica as configurações definidas no projeto.
+Aplique as configurações definidas no projeto.
+
+## O que foi aprendido
+
+Durante a prática, foram trabalhados conceitos de Infraestrutura como Código (IaC), configuração de providers, variáveis, Data Sources e outputs utilizando Terraform.
