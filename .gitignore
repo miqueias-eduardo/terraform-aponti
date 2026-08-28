@@ -1,0 +1,7 @@
+# Arquivos de estado do Terraform
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+
+# Diretório local do Terraform
+.terraform/
