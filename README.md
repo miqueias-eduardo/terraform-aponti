@@ -45,7 +45,7 @@ Define as informações que podem ser exibidas pelo Terraform após a execução
 
 ## Fluxo utilizado
 
-texto​
+```text
 Configuração dos arquivos
           ↓
    terraform init
@@ -63,7 +63,7 @@ Preparar o projeto e instalar os fornecedores necessários.
 
 ### ` terraform validate` 
 
-Verifique se a configuração dos arquivos é válida.
+Verifica se a configuração dos arquivos é válida.
 
 ### ` plano terraform ` 
 
